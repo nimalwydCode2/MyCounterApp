@@ -1,0 +1,28 @@
+.control-panel {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.step-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.slider-control {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.step-value {
+  font-weight: bold;
+  color: #fff;
+}
+
+.quick-steps {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}

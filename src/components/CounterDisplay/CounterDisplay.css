@@ -1,0 +1,20 @@
+.counter-display {
+  text-align: center;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.counter-display h2 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.counter-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
