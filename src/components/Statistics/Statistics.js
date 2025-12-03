@@ -1,12 +1,13 @@
 import React from 'react';
 import './Statistics.css';
 
-function Statistics({ count, step, favoritesCount, historyCount }) {
+function Statistics({ count, step, favoritesCount, historyCount, temperature }) {
   const stats = [
     { label: 'Current Value', value: count },
     { label: 'Step Size', value: step },
     { label: 'Favorites', value: favoritesCount },
-    { label: 'History Items', value: historyCount }
+    { label: 'History Items', value: historyCount },
+    { label: 'Temperature', value: temperature ? `${Math.round(temperature)}°C` : 'N/A' }
   ];
 
   return (
